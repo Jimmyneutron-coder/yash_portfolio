@@ -1,0 +1,180 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+.navdiv {
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+}
+
+li a {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    color: white;
+}
+
+button {
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+
+button a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.home {
+    background-color: aliceblue;
+    padding: 12%;
+    min-height: 70vh;
+    width: 100vw;
+}
+
+.home h3 {
+    color:crimson;
+    font-size: 40px;
+
+}
+
+.home h1 {
+    color: salmon;
+    font-size: 70px;
+
+}
+
+.home p {
+    font-size: 30px;
+}
+
+.about {
+    text-align: center;
+    border-top: 1px solid rgba(128, 128, 128, 0.457);
+    padding: 10px;
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.unique {
+    color: salmon;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about img {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 90%;
+    height: 300px;
+    width: 300px;
+
+}
+
+.about-content {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+    align-items: start;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.hr {
+    height: 30rem;
+    width: .5px;
+    color: rgb(226, 43, 49);
+}
+
+.right ul li p {
+    color: black;
+    font-size: 23px;
+}
+
+#span {
+    color: darkgray;
+    font-size: 20px;
+}
+
+.right h2 {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+
+.right ul {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 100px;
+    gap: 20px;
+}
+
+
+.contact {
+    text-align: center;
+    border-top: 1px solid rgba(128, 128, 128, 0.457);
+    padding: 10px;
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.contact h1{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form {
+    text-align: start;
+    display: grid;
+    padding: 20px 20px;
+    width: 50vw;
+    gap: 10px;
+    border: 2px solid darkgray;
+}
+
+.form input {
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: rgb(155, 147, 147);
+}

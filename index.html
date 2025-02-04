@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
 
 <body>
@@ -16,15 +17,16 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <button><a href="stars1.jpg" download>Resume</a></button>
+                <li><a href="#contact">Contact</a></li>
+                <button id="hash"><a href="stars1.jpg" download>Resume</a></button>
             </ul>
+            <button id="responsivebtn"><i class='bx bx-menu-alt-right'></i></button>
         </div>
     </nav>
 
-    <div class="home">
-        <h3>hey there... </h3>
-        <h1>I'am Yash Musanwar.</h1>
+    <div id="home" class="home">
+        <h3>hey there...I'am </h3>
+        <h1>Yash Musanwar.</h1>
         <p>A passionate <span>front end developer.</span> </p>
     </div>
     <div id="about" class="about">
@@ -63,21 +65,40 @@
     <div id="contact" class="contact">
         <h1><span class="unique">Contact</span> Me</h1>
         <div class="contact-content">
-            <formdiv class="form">
-               Name:<input type="text" placeholder="Enter name here" name="name" id="">
-               Email:<input type="text" name="email" placeholder="Enter email here" id="">
-               Contact:<input type="text" name="contact" placeholder="Enter contact here" id="">
-               Message:<textarea placeholder="message" type="text" name="message" id=""></textarea>
-            </formdiv>
+            <form method="POST" id="form">
+                <input type="hidden" name="access_key" value="125bb2dd-716f-492e-acff-cbe46b8e0606">
+                Name:<input type="text" placeholder="Enter name here" name="name" id="name">
+                Email:<input type="email" name="email" placeholder="Enter email here" id="email">
+                contact:<input type="number" name="contact" placeholder="Enter your number" id="con">
+                Message:<textarea placeholder="message" type="text" name="message" id="message"></textarea>
+                <button id="submitbtn" type="submit">Submit</button>
+                <div id="result"></div>
+
+            </form>
+
+            <div class="get-connected">
+                <h2> Get Connected With Me</h2>
+
+                <a href="https://github.com/Jimmyneutron-coder" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/yash-musanwar-488310317/" target="_blank"> <i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="#"> <i class='bx bxl-twitter'></i></a>
+                <br>
+                <a href="mailto:yashmusanwar123@gmail.com" target="_blank"> <i class='bx bxl-telegram'></i>
+                    <span id="spann">yashmusanwar123@gmail.com</span></a>
+                <br>
+                <button id="stash"><a href="#" download> Download CV</a></button>
+            </div>
 
         </div>
 
     </div>
-
-    <div>
-        <h2> Get Connected With Me</h2>
-        <a href=""></a>
-    </div>
+    <footer>
+        <h4>
+            Designed and Developed by Yash Musanwar. © 2025.
+        </h4>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
